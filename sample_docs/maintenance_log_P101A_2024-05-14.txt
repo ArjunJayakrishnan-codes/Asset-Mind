@@ -1,0 +1,13 @@
+MAINTENANCE LOG
+Work Order: WO-11390
+Date: May 14, 2024
+Equipment: Pump P-101A (Centrifugal Feed Pump, Unit 3)
+Technician Role: Maintenance Engineer
+
+Bearing housing temperature trending high on P-101A: 78°C vs. normal 55-60°C
+baseline. Thermal deviation logged. Vibration reading 3.4 mm/s RMS — now
+exceeds ISO 10816 Zone B threshold for this pump class. Seal weep from March
+has not been fully resolved; minor leak persists at low rate. Work order
+raised to replace outboard bearing and mechanical seal cartridge together at
+next opportunity. Shift Engineer notified of elevated risk. Standby pump
+P-101B confirmed available and ready for changeover if needed.

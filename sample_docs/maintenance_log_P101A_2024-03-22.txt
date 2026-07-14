@@ -1,0 +1,12 @@
+MAINTENANCE LOG
+Work Order: WO-11208
+Date: Mar 22, 2024
+Equipment: Pump P-101A (Centrifugal Feed Pump, Unit 3)
+Technician Role: Maintenance Engineer
+
+Operator reported slight weeping at mechanical seal face on P-101A during
+routine rounds. Inspection confirms minor seal deviation — non-conformance
+against OEM seal-flush specification. Seal flush line pressure reading low.
+Temporary tightening performed; seal replacement scheduled for next planned
+shutdown window. Vibration re-checked: 2.6 mm/s RMS outboard bearing, further
+increase from January reading. Flagged for Inspection Engineer follow-up.

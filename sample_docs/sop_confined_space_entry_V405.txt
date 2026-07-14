@@ -1,0 +1,11 @@
+STANDARD OPERATING PROCEDURE
+SOP: Confined Space Entry — Vessel V-405
+Applicable Roles: Safety Officer, Supervisor, Contractor
+Reference Standard: Factory Act, PESO
+
+Entry into V-405 for internal inspection or cleaning requires gas testing,
+confined-space permit issuance by the Safety Officer, and continuous
+attendant supervision. This SOP is cross-referenced in the annual PESO
+inspection of V-405 and should be reviewed alongside area hot-work permits
+given V-405's proximity to Pump P-101A and the August 2024 seal-failure
+incident location.

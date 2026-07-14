@@ -1,0 +1,11 @@
+SPECIFICATION DOCUMENT - Data Centre Electrical Commissioning
+Document Type: Specification
+Standards referenced: TIA-942, BICSI, Uptime Institute Tier III, ISO 9001:2015
+
+Scope: Commissioning sequence for UPS systems, generators, and switchgear for a
+Tier III data centre facility. All equipment tags (e.g. UPS-301, GEN-110, SW-220) must
+be cross-checked against submittal packages before energization.
+
+Quality Engineer role: QC Inspector must sign off on integrated systems test (IST)
+before handover. Non-conformances must be logged and resolved prior to Tier III
+certification submission.

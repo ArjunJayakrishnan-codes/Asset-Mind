@@ -1,0 +1,14 @@
+STANDARD OPERATING PROCEDURE
+SOP: Lockout-Tagout for Rotating Equipment
+Applicable Equipment: P-101A, P-101B, M-330, CV-512
+Applicable Roles: Maintenance Engineer, Supervisor, Contractor
+Reference Standard: Factory Act, OISD-STD-105
+
+All rotating equipment work (pumps, motors, control valves) requires energy
+isolation, lock application, and tag placement before any permit to work is
+activated. Verification step: Shift Engineer or Supervisor must confirm
+zero-energy state before signing off the permit. This procedure applies to
+both planned maintenance and breakdown/emergency work, including the P-101A
+bearing and seal replacement under PTW-55388 and routine motor work on
+M-330. Non-compliance with this SOP has been identified as a contributing
+factor in past near-miss events across the site.

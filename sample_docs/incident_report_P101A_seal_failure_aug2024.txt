@@ -1,0 +1,18 @@
+INCIDENT REPORT
+Date: Aug 2, 2024
+Equipment: Pump P-101A
+Classification: Mechanical seal leak / breakdown (near-miss for fire risk)
+Reported By: Shift Engineer
+Regulatory Notification: DGMS
+
+At approximately 0400 hrs, a mechanical seal failure occurred on P-101A,
+resulting in a process fluid leak and spray at the seal housing. The pump
+tripped automatically and was isolated. No ignition source was present at
+the time, avoiding a potential fire near-miss, however the location is
+within 15 meters of a designated hot-work zone, raising the severity
+classification. Standby pump P-101B was brought online with no process
+interruption. Investigation found progressive bearing degradation and seal
+weep recorded in maintenance logs since January 2024 that were not
+escalated with sufficient urgency. Plant Manager has requested a formal
+root-cause analysis and review of the vibration-monitoring escalation
+threshold for rotating equipment.

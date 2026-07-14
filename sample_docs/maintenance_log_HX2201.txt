@@ -1,0 +1,15 @@
+MAINTENANCE WORK ORDER LOG
+Document Type: Maintenance Record
+Work Order: WO-10234
+Equipment: HX-2201
+Date: 03-Mar-2024
+Technician role: Maintenance Engineer
+
+Description: Routine inspection of HX-2201 heat exchanger found minor gas pressure
+deviation from baseline. Deviation logged as non-conformance but resolved by manual
+valve adjustment without further root cause analysis. No follow-up work order created.
+
+Equipment P-101A pump also flagged for vibration above threshold during the same shift
+changeover. Supervisor noted this as a minor deviation, no action taken.
+
+Next scheduled maintenance: 03-Sep-2024.

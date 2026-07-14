@@ -1,0 +1,14 @@
+OEM EQUIPMENT MANUAL (scanned excerpt)
+Equipment: Pump P-101A — Centrifugal Feed Pump, Model CP-450
+Manufacturer Reference Standard: ISO 5199, ISO 21049
+
+Section 4 — Bearing and Seal Maintenance
+Recommended bearing vibration alarm threshold: 2.8 mm/s RMS (Zone B upper
+limit per ISO 10816 for this pump class). Recommended bearing temperature
+alarm: 65°C. Mechanical seal type: cartridge, single, ISO 21049 compliant.
+Seal flush line must maintain minimum 2 bar differential above stuffing box
+pressure at all times; any sustained weep at the seal face should be treated
+as an early failure indicator, not a cosmetic issue, and scheduled for
+replacement within one operating cycle. Recommended PM interval: quarterly
+lubrication and vibration check, annual full bearing inspection. Standby
+unit (P-101B configuration) should be exercised monthly per OEM guidance.

@@ -1,0 +1,27 @@
+ROOT CAUSE ANALYSIS — FINAL REPORT
+Equipment: Pump P-101A
+Prepared By: QA Engineer, reviewed by Plant Manager
+Related Work Orders: WO-11042, WO-11208, WO-11390, WO-11675
+Related Permits: PTW-55210, PTW-55388
+Reference Standards: ISO 10816, ISO 21049, OISD-STD-105
+
+Sequence of events reconstructed from maintenance logs, inspection reports,
+and incident records:
+1) Jan 10, 2024 — routine maintenance logs early upward vibration trend
+   (1.4 to 2.1 mm/s RMS) on P-101A outboard bearing.
+2) Mar 22, 2024 — mechanical seal weep first observed and logged as a minor
+   deviation; seal replacement deferred to next planned shutdown rather
+   than treated as an early failure indicator, contrary to OEM guidance.
+3) Q1/Q2 2024 inspection reports both flag adverse trending; Q2 raises a
+   formal non-conformance escalated to Plant Manager.
+4) Jun 18, 2024 — near-miss high-vibration trip, still not resulting in
+   immediate seal replacement.
+5) Aug 2, 2024 — mechanical seal failure and breakdown; near-miss for fire
+   given proximity to hot-work zone; standby pump P-101B covers process
+   load with no interruption.
+Root cause: deferred maintenance response to a documented, multi-month
+vibration and seal-weep trend, compounded by an escalation process that did
+not treat repeated minor deviations as a cumulative risk signal. Corrective
+action: automated vibration-threshold escalation (see 2024 Compliance Audit
+Report) and revision of SOP P-101A Startup and Shutdown to mandate
+immediate seal replacement on any weep detection rather than deferral.

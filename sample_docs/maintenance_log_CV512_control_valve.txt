@@ -1,0 +1,12 @@
+MAINTENANCE LOG
+Work Order: WO-11720
+Date: Apr 28, 2024
+Equipment: Control Valve CV-512 (Discharge Throttle Valve, Unit 3)
+Technician Role: Instrument Technician / Maintenance Engineer
+
+Routine calibration and stroke test performed on CV-512, located downstream
+of Pump P-101A discharge. Valve response time slightly outside
+specification — minor deviation logged, actuator diaphragm scheduled for
+inspection at next shutdown. No leak observed. Valve left in automatic
+control mode after test, response confirmed acceptable for continued
+operation.

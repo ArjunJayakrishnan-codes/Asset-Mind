@@ -1,0 +1,13 @@
+PERMIT TO WORK
+Document Type: Permit
+Permit Number: PTW-88213
+Type: Hot Work Permit
+Date Issued: 12-Jan-2025
+Issued by: Shift Engineer
+Location: Coke Oven Battery Area, within 30m of V-405
+
+Scope of work: Welding repair near V-405 vessel. Gas detectors in the area reported
+readings within normal range at time of permit issuance. Permit valid for 8 hours.
+
+Precautions per OISD-STD-105: continuous gas monitoring required during hot work in
+proximity to hydrocarbon vessels. PESO clearance on file.

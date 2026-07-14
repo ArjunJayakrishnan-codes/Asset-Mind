@@ -1,0 +1,11 @@
+INSPECTION REPORT
+Equipment: Tank T-210 (Process Feed Storage Tank)
+Inspector Role: Inspector
+Reference Standard: PESO, OISD-STD-105
+
+Routine external inspection of T-210 conducted. Minor coating deterioration
+noted on the tank shell — deviation logged, recoating scheduled for next
+turnaround. No leak or structural non-conformance identified. Level
+instrumentation calibration confirmed current. T-210 feeds directly into
+the P-101A suction line, so any future level-control deviation here should
+be cross-checked against P-101A operating logs.

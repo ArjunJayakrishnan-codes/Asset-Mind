@@ -1,0 +1,14 @@
+NEAR-MISS REPORT
+Date: Oct 2, 2024
+Equipment: Control Valve CV-512
+Reported By: Operator
+Classification: Valve slow-to-respond (near-miss)
+
+CV-512 was slow to respond to a control-system throttle command during a
+process upset, creating a brief pressure deviation downstream of Pump
+P-101A. Operator intervened manually and no trip or spill occurred. This
+follows the deviation noted in the April 2024 calibration (WO-11720) that
+flagged actuator response time as out-of-specification. Recommend
+prioritizing the actuator diaphragm inspection rather than deferring to
+next shutdown, given the proximity to the P-101A drivetrain that already
+has an open reliability concern.

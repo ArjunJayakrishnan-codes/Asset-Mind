@@ -1,0 +1,15 @@
+INCIDENT REPORT
+Date: Sep 14, 2024
+Equipment: Motor M-330 (Pump Drive Motor, Unit 3)
+Classification: Overheat trip / breakdown
+Reported By: Shift Engineer
+Regulatory Notification: DGMS
+
+M-330 tripped on winding-temperature protection during normal operation,
+approximately six weeks after the P-101A seal-failure breakdown on the same
+drivetrain. Investigation found no direct link to the pump-side seal
+failure, but noted that the coupling misalignment tolerance check performed
+in July (WO-11602) should be repeated post-repair as a precaution. Motor
+was inspected, allowed to cool, and returned to service with no parts
+replacement. Recommend adding M-330 to the predictive-maintenance
+vibration-monitoring program alongside P-101A and P-101B.

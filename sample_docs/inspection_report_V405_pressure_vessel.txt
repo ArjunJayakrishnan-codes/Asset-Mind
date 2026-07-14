@@ -1,0 +1,12 @@
+INSPECTION REPORT
+Equipment: Vessel V-405 (Separator, Unit 3)
+Inspector Role: Inspector
+Reference Standard: PESO, OISD-STD-105
+
+Annual pressure-vessel inspection of V-405 conducted per PESO requirements.
+External corrosion within acceptable limits, no active leak. Minor
+deviation noted on relief-valve set-pressure calibration certificate, which
+is due for renewal within 60 days — flagged as a compliance item, not a
+safety non-conformance. V-405 is located in the same process area as
+Pump P-101A and was named in the August 2024 incident report review as a
+nearby vessel of concern given its inventory of flammable process fluid.

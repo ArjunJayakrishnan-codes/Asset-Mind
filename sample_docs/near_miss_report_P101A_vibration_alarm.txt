@@ -1,0 +1,15 @@
+NEAR-MISS REPORT
+Date: Jun 18, 2024
+Equipment: Pump P-101A
+Reported By: Operator
+Classification: High-vibration trip (near-miss)
+
+P-101A tripped on high-vibration alarm during normal operation. Shift
+Engineer confirmed no immediate leak or damage visible on walk-down.
+Vibration reading at time of trip: 4.1 mm/s RMS, above the alarm setpoint.
+This follows an upward trend documented in Q1 and Q2 2024 inspection
+reports and the March 2024 maintenance log seal-weep entry. Pump was
+restarted after a 30-minute cool-down with no anomaly, but the recurrence of
+elevated vibration readings on this asset over multiple months is a
+deviation pattern worth flagging for predictive-maintenance review before a
+full breakdown occurs.

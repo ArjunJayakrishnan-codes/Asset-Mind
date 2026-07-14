@@ -1,0 +1,22 @@
+INCIDENT REPORT - Coke Oven Battery Area
+Document Type: Incident Report
+Date: 12-Jan-2025
+Prepared by: Safety Officer
+
+Equipment involved: HX-2201, V-405, P-101A
+Summary: A gas leak was detected near the coke oven battery. Entrapped gases accumulated
+following a delay in scheduled maintenance on HX-2201. Gas pressure sensors flagged an
+anomalous reading approximately 40 minutes before the explosion, but no automated
+system connected the sensor reading to an evacuation trigger.
+
+Related Permit: PTW-88213 (hot work) was active within 30 meters of V-405 at the time
+of the incident, overlapping with the gas accumulation zone. This is a compound risk
+condition per OISD-STD-105.
+
+Root cause: near-miss reports for HX-2201 from March 2024 (WO-10234) described a similar
+gas pressure deviation that was resolved without root-cause investigation. The failure
+pattern recurred.
+
+Corrective actions: mandatory cross-check between active hot work permits and live gas
+sensor thresholds within 50m radius. Reference: Factory Act 1948, DGMS Circular on
+confined space entry.

@@ -1,0 +1,17 @@
+COMPLIANCE AUDIT REPORT — 2024 Annual Review
+Auditor Role: QA Engineer / Inspector
+Reference Standards Reviewed: OISD-STD-105, DGMS, Factory Act, PESO,
+TIA-942, BICSI, Uptime Institute Tier III, ISO 10816, ISO 21049, ISO 5199
+
+Site-wide compliance audit covering rotating equipment (P-101A, P-101B,
+M-330), pressure equipment (V-405, T-210), control systems (CV-512), and
+data-center infrastructure (UPS-301, GEN-110, SW-220). All required
+standards were found referenced in current documentation with the
+exception of a lapsed relief-valve calibration certificate on V-405, which
+is being tracked as an open compliance item. The audit specifically notes
+that the P-101A seal-failure incident of August 2024 highlighted a gap
+between inspection findings (Q1/Q2 2024 deviations) and maintenance
+escalation — a process gap rather than a documentation or standards-
+coverage gap. Recommend implementing an automated escalation threshold tied
+to the ISO 10816 vibration Zone B limit already specified for this
+equipment class.

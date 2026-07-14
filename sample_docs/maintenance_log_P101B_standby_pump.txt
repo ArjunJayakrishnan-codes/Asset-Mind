@@ -1,0 +1,12 @@
+MAINTENANCE LOG
+Work Order: WO-11500
+Date: Jun 3, 2024
+Equipment: Pump P-101B (Standby Centrifugal Feed Pump, Unit 3)
+Technician Role: Maintenance Engineer
+
+Monthly standby-pump exercise run performed on P-101B per OEM guidance.
+Vibration 1.2 mm/s RMS, bearing temperature 54°C — both within normal
+baseline, no deviation. Seal flush pressure nominal, no weep observed.
+Pump confirmed ready for immediate changeover duty in support of P-101A,
+which has shown elevated vibration/temperature trends since January 2024.
+No further action required this cycle.

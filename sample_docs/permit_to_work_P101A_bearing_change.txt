@@ -1,0 +1,14 @@
+PERMIT TO WORK
+Permit No: PTW-55388
+Equipment: Pump P-101A
+Work Type: Bearing and mechanical seal cartridge replacement (breakdown)
+Issued To: Contractor (Rotating Equipment Services)
+Approved By: Safety Officer, Plant Manager
+Reference Standard: Factory Act, DGMS
+
+Emergency permit issued following mechanical seal failure and breakdown of
+P-101A on Aug 2, 2024. Confined-space entry not required. Lockout-tagout
+applied and verified by Shift Engineer before work commenced. Full bearing
+housing teardown authorized. Standby pump P-101B running to maintain
+process continuity during repair window. Permit closed on completion;
+equipment returned to service after vibration re-check.

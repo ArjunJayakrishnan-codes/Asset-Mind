@@ -1,0 +1,15 @@
+MAINTENANCE LOG
+Work Order: WO-11675
+Date: Aug 2, 2024
+Equipment: Pump P-101A (Centrifugal Feed Pump, Unit 3)
+Technician Role: Maintenance Engineer
+
+Mechanical seal failure on P-101A during 0400 shift — visible leak and
+process fluid spray at seal housing. Immediate breakdown; pump tripped and
+isolated per lockout-tagout procedure. Near-miss avoided as no ignition
+source was present at time of leak, but incident report filed given the
+proximity to hot work area. Standby pump P-101B started successfully with
+no interruption to downstream unit. Bearing found scored on teardown,
+consistent with the elevated vibration/temperature trend logged since
+January 2024. Full bearing and seal cartridge replacement performed under
+PTW-55388. Root-cause review requested.

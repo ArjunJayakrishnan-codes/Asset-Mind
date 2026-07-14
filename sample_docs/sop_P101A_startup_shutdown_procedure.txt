@@ -1,0 +1,15 @@
+STANDARD OPERATING PROCEDURE
+SOP: P-101A Startup and Shutdown
+Applicable Roles: Operator, Supervisor
+Reference Standard: OISD-STD-105
+
+1. Confirm suction and discharge valves aligned; confirm standby pump P-101B
+   status before starting P-101A.
+2. Verify seal flush line pressure within specification before start.
+3. Start pump; monitor vibration and bearing temperature for first 15 minutes
+   of operation — any reading above 2.8 mm/s RMS or 65°C requires Supervisor
+   notification before continuing.
+4. For shutdown, ramp down flow gradually; do not deadhead the pump.
+5. Log all readings in the maintenance log at each shift handover.
+6. Any deviation from normal seal flush pressure or vibration trend must be
+   reported immediately, not deferred to the next scheduled inspection.

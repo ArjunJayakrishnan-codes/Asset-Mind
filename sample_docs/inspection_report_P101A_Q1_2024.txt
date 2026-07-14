@@ -1,0 +1,12 @@
+INSPECTION REPORT — Q1 2024
+Equipment: Pump P-101A
+Inspector Role: QA Engineer
+Reference Standard: OISD-STD-105, ISO 10816
+
+Scheduled vibration analysis conducted on P-101A rotating assembly. Outboard
+bearing vibration measured at 2.1-2.6 mm/s RMS across the quarter, trending
+upward. Minor deviation noted against baseline commissioning data but within
+alarm limits. Mechanical seal condition rated "monitor" following a reported
+weep in March. Recommend increasing inspection frequency from quarterly to
+monthly until vibration trend stabilizes. No non-conformance raised this
+quarter; advisory notice issued to Maintenance Engineer.

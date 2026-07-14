@@ -1,0 +1,12 @@
+NEAR-MISS REPORT
+Document Type: Incident Report
+Date: 18-Mar-2024
+Equipment: HX-2201
+Reported by: Operator
+
+Description: Operator noticed unusual pressure fluctuation on HX-2201 during shift
+changeover. No hot work permit was active at the time. Incident closed without
+corrective action. Similar deviation recorded previously on this equipment.
+
+Recommendation: establish trend monitoring for HX-2201 gas pressure readings and link
+to permit issuance system to avoid compound risk during future hot work activities.

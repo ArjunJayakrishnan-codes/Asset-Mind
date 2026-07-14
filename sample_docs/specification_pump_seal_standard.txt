@@ -1,0 +1,14 @@
+SPECIFICATION
+Title: Mechanical Seal and Bearing Monitoring Specification — Rotating Equipment
+Applicable Equipment: P-101A, P-101B, M-330
+Reference Standards: ISO 21049, ISO 10816, OISD-STD-105
+
+This specification sets the site-wide minimum monitoring requirements for
+centrifugal pump seals and bearings. Vibration alarm setpoints shall not
+exceed Zone B limits per ISO 10816. Seal weep of any kind shall trigger a
+non-conformance entry and mandatory replacement scheduling within one
+operating cycle, per ISO 21049. Deviations from this specification —
+including deferred seal replacement following a logged weep — shall be
+escalated to the Plant Manager, not resolved solely at the Maintenance
+Engineer level. This specification was issued following review of recurring
+seal/bearing degradation patterns on rotating equipment including P-101A.

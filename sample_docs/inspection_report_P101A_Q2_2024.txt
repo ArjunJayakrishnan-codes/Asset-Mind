@@ -1,0 +1,12 @@
+INSPECTION REPORT — Q2 2024
+Equipment: Pump P-101A
+Inspector Role: QA Engineer
+Reference Standard: ISO 10816, OISD-STD-105
+
+Thermal imaging survey of P-101A bearing housing shows hot spot consistent
+with degrading lubrication film, temperature reading 78°C against 55-60°C
+baseline — flagged as deviation requiring corrective action before next
+operating campaign. Vibration now measured at 3.4 mm/s RMS, exceeding Zone B
+threshold. Seal weep from Q1 has not resolved. Non-conformance raised;
+escalated to Plant Manager for prioritized work order. This is the second
+consecutive quarter of adverse trending on this asset.
