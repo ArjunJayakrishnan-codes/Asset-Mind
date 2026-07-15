@@ -6,17 +6,16 @@ networkx
 scikit-learn
 numpy
 
-# Optional but recommended (better embeddings). Falls back to TF-IDF automatically if not installed.
-sentence-transformers
-faiss-cpu
-
-# Optional: for real LLM-generated answers instead of extractive/templated answers.
-# Set GROQ_API_KEY env var to enable.
-anthropic
-
 # OCR pipeline (scanned PDFs, equipment manuals, handwritten logs / photos).
 # Falls back gracefully (skips OCR, keeps whatever text was extracted) if the
 # system binaries (tesseract-ocr, poppler-utils) or these packages are missing.
 pytesseract
 pdf2image
 Pillow
+
+# NOTE: sentence-transformers and faiss-cpu are intentionally excluded from
+# this requirements file — they pull in PyTorch + CUDA (2GB+) which exceeds
+# free-tier build limits. The app uses TF-IDF (scikit-learn) instead, which
+# is set via VECTOR_BACKEND=tfidf in the Render environment variables.
+# To use semantic embeddings locally, install manually:
+#   pip install sentence-transformers faiss-cpu
