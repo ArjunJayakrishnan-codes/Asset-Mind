@@ -24,6 +24,11 @@ class VectorStore:
     def _init_backend(self):
         global _BACKEND
         import os
+        # If explicitly set to tfidf (e.g. on memory-constrained free hosting),
+        # skip the heavy sentence-transformers model entirely.
+        if os.environ.get("VECTOR_BACKEND", "").lower() == "tfidf":
+            _BACKEND = "tfidf"
+            return
         # Give the HF Hub a short timeout so a flaky/absent connection falls back
         # to TF-IDF quickly instead of hanging server startup for a minute+.
         os.environ.setdefault("HF_HUB_ETAG_TIMEOUT", "3")
