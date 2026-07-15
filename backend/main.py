@@ -1,5 +1,7 @@
 import shutil
 import uuid
+import logging
+from contextlib import asynccontextmanager
 from pathlib import Path
 
 from fastapi import FastAPI, UploadFile, File, HTTPException, Request
@@ -13,10 +15,61 @@ from vector_store import VectorStore
 from knowledge_graph import KnowledgeGraph
 import agents
 
+logger = logging.getLogger("assetmind")
+
 UPLOAD_DIR = Path(__file__).parent / "uploaded_docs"
 UPLOAD_DIR.mkdir(exist_ok=True)
 
-app = FastAPI(title="AssetMind API")
+SAMPLE_DOCS_DIR = Path(__file__).parent.parent / "sample_docs"
+
+vector_store = VectorStore()
+knowledge_graph = KnowledgeGraph()
+documents_registry = {}  # doc_id -> metadata
+
+
+def _ingest_file(filepath: Path, doc_type: str = "general_document"):
+    """Ingest a single file into the vector store and knowledge graph."""
+    doc_id = str(uuid.uuid4())
+    try:
+        records = process_document(filepath, doc_id, filepath.name, doc_type)
+        if not records:
+            return 0
+        for r in records:
+            try:
+                knowledge_graph.add_chunk(r)
+            except Exception:
+                r.setdefault("entities", {})
+        vector_store.add(records)
+        documents_registry[doc_id] = {
+            "doc_id": doc_id,
+            "name": filepath.name,
+            "type": doc_type,
+            "chunks": len(records),
+            "ocr_used": any(r.get("source_ocr") for r in records),
+        }
+        return len(records)
+    except Exception as e:
+        logger.warning(f"Auto-ingest skipped {filepath.name}: {e}")
+        return 0
+
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    """Auto-ingest sample documents on startup so the app is ready out of the box."""
+    if SAMPLE_DOCS_DIR.exists():
+        files = sorted(f for f in SAMPLE_DOCS_DIR.iterdir() if f.is_file())
+        logger.info(f"Auto-ingesting {len(files)} sample documents from {SAMPLE_DOCS_DIR}…")
+        total_chunks = 0
+        for f in files:
+            chunks = _ingest_file(f, _guess_doc_type(f.name))
+            total_chunks += chunks
+        logger.info(f"Auto-ingest complete: {len(documents_registry)} docs, {total_chunks} chunks indexed.")
+    else:
+        logger.info("No sample_docs/ directory found — skipping auto-ingest.")
+    yield  # app runs here
+
+
+app = FastAPI(title="AssetMind API", lifespan=lifespan)
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -33,10 +86,6 @@ async def global_exception_handler(request: Request, exc: Exception):
         status_code=500,
         content={"detail": f"Something went wrong ({type(exc).__name__}). Please try again."},
     )
-
-vector_store = VectorStore()
-knowledge_graph = KnowledgeGraph()
-documents_registry = {}  # doc_id -> metadata
 
 
 class QueryRequest(BaseModel):
